@@ -9,16 +9,56 @@
 <body>
     <form action="" method="POST">
         <div>
-            <input type="text" name="FirstName" placeholder="First Name">
-            <input type="text" name="LastName" placeholder="Last Name">
+            <input type="text" name="FirstName" placeholder="First Name" required>
+            <input type="text" name="LastName" placeholder="Last Name" required>
         </div>
 
         <div>
             <label for="valid-id">Upload a photo of valid ID</label>
-            <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg">
+            <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
         </div>
         <div>
-            <input type="text" name="Address">
+            <input type="text" name="Address" placeholder="Address">
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="email" placeholder="Contact Number/s">
+        </div>
+        <div>
+            <h4>Select Date and Time of Appointment</h4>
+            <input type="date" name="appointment-date">
+            <input type="time" name="appointment-time">
+        </div>
+        <div>
+            <h4>Select services you want</h4>
+                <label class="GFG">
+                    <input type="checkbox" name="Nail" value="Nail">
+                    Nail
+                </label>
+                <label class="GFG">
+                    <input type="checkbox" name="Nail" value="Nail">
+                    Nail
+                </label>
+                <label class="GFG">
+                    <input type="checkbox" name="Nail" value="Nail">
+                    Nail
+                </label>
+                <label class="GFG">
+                    <input type="checkbox" name="Nail" value="Nail">
+                    Nail
+                </label>
+                <label class="GFG">
+                    <input type="checkbox" name="Nail" value="Nail">
+                    Nail
+                </label>
+        </div>
+        
+        <div>
+            <h4>Payment</h4>
+            <h5>Total</h5>
+            <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num">
+            <br>
+            <input type="file" name="receipt" id="receipt">
         </div>
     </form>
 </body>
