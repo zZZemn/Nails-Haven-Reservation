@@ -1,4 +1,6 @@
 let price = 0.00;
+const FinalButton = document.getElementById('Final')
+
 function updatePrice() {
     if (document.getElementById("nail1").checked == true) {
         price += 10;
@@ -13,11 +15,10 @@ function updatePrice() {
         price += 7;
     }
     document.getElementById('total').value = price;
-    const button = document.querySelector('button')
-    button. disabled = true
+    FinalButton.disabled = true
 }
 
-if (button.disabled == true)
+if (FinalButton.disabled == true)
     {
-        
+        FinalButton.classList.add('hide');
     }
