@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+.form-container {
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+}
 form {
-    background-color: blue;
+    background-color: rgb(82, 82, 82);
+    border-radius: 1%;
     width: 600px;
     height: 500px;
     text-align: center;
     padding-top: 80px;
+    margin: auto;  
 }
 
 form div {
