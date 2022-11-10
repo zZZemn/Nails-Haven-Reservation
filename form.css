@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
-.hide {
-    display: none;
+form {
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+form div {
+    margin: 5px;
+}
+
+.txt {
+    height: 30px;
+    width: 198px;
+}
+
+.txt2 {
+    height: 30px;
+    width: 400px;
+}
+
+.upload-photo {
+    font-size: 15px;
+    padding-left: 21px;
 }

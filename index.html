@@ -4,64 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Nails Haven</title>
 </head>
 <body>
     <form action="" method="POST">
         <div>
-            <input type="text" name="FirstName" placeholder="First Name" required>
-            <input type="text" name="LastName" placeholder="Last Name" required>
+            <input type="text" name="FirstName" placeholder="First Name" required class="txt">
+            <input type="text" name="LastName" placeholder="Last Name" required class="txt">
         </div>
 
         <div>
+            <input type="email" name="email" placeholder="Email Address" required class="txt">
+            <input type="text" name="email" placeholder="Contact Number/s" class="txt">
+        </div>
+        
+        <div>
+            <input type="text" name="Address" placeholder="Address" class="txt2">
+        </div>
+        <div class="upload-photo">
             <label for="valid-id">Upload a photo of valid ID</label>
             <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
-        </div>
-        <div>
-            <input type="text" name="Address" placeholder="Address">
-        </div>
-        <div>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <input type="text" name="email" placeholder="Contact Number/s">
         </div>
         <div>
             <h4>Select Date and Time of Appointment</h4>
             <input type="date" name="appointment-date">
             <input type="time" name="appointment-time">
         </div>
-        <div>
-            <h4>Select services you want</h4>
-                <label class="GFG">
-                    <input type="checkbox" name="Nail" value="Nail" id="nail1">
-                    Nail
-                </label>
-                <label class="GFG">
-                    <input type="checkbox" name="Nail" value="Nail" id="nail2">
-                    Nail
-                </label>
-                <label class="GFG">
-                    <input type="checkbox" name="Nail" value="Nail" id="nail3">
-                    Nail
-                </label>
-                <label class="GFG">
-                    <input type="checkbox" name="Nail" value="Nail" id="nail4">
-                    Nail
-                </label>
-                <label class="GFG">
-                    <input type="checkbox" name="Nail" value="Nail" id="nail5">
-                    Nail
-                </label>
-                <button type="button" onclick="updatePrice()"" id="Final">Final</button>
-                <button type="button" class="hide">Cancel</button>
-        </div>
         
         <div>
-            <h4>Payment</h4>
-            <label for="total">Total: </label>
-            <input type="text" name="total" id="total" READONLY>
-            <br>
+            <h4>Reservation Payment</h4>
+            <p>Please Pay ₱200 For Reservation</p>
             <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num">
-            <br>
             <input type="file" name="receipt" id="receipt">
         </div>
         <input type="submit">
