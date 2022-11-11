@@ -25,8 +25,8 @@ VALUES ('$fname','$lname','$email','$contact','$address','$val_id','$app_date','
 //inserting
 $inserting = mysqli_query($conn, $sql);
 
-if($inserting)
+/*if($inserting)
 {
     $conn -> close();
-}
+}*/
 ?>
