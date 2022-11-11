@@ -21,25 +21,33 @@
             </div>
             
             <div>
-                <input type="text" name="Address" placeholder="Address" class="txt2">
+                <input type="text" name="Address" placeholder="Address" class="txt2">   
             </div>
             <div class="upload-photo">
                 <label for="valid-id">Upload a photo of valid ID</label>
                 <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
             </div>
+
+            <div class="line first"><hr></div>
+            
             <div>
                 <h4>Select Date and Time of Appointment</h4>
                 <input type="date" name="appointment-date">
                 <input type="time" name="appointment-time">
             </div>
             
+            <div class="line second"><hr></div>
+
             <div>
                 <h4>Reservation Payment</h4>
                 <p>Please Pay ₱200 For Reservation</p>
+                <div class="upload-photo">
+                    <label for="receipt">Payment Receipt</label>
+                    <input type="file" name="receipt" id="receipt" accept="image/png, image/jpeg" required>
+                </div>
                 <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num">
-                <input type="file" name="receipt" id="receipt">
+                <input type="submit">
             </div>
-            <input type="submit">
         </form>
     </div>
     <script src="price.js"></script>
