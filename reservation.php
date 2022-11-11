@@ -29,7 +29,6 @@
                 echo "<title>Reservation Error</title>";
             }
     }
-    //<button onclick="window.print()">Print Receipt</button>
 ?>
 
 <!DOCTYPE html>
@@ -39,26 +38,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="receipt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:ital,wght@0,400;1,500&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
             <table>
                 <tr>
-                    <td>Hi, <?php echo $fname." ".$lname; ?></td>
+                    <td class="np"><img class="logo" src="img/2.png" alt="Nails Haven"></td>
+                    <td class="np"><p>MVP3 Bldg. MC Arthur Hiway, Abangan Sur, Marilao, Bulacan (infront of TOYOTA MARILAO)</p></td>
                 </tr>
                 <tr>
-                    <td>Appointment Time:</td>
+                    <td colspan="2">Hi, <?php echo $fname." ".$lname; ?></td>
+                </tr>
+                <tr>
+                    <td class="wid">Appointment Time:</td>
                     <td><?php echo $app_time ?></td>
                 </tr>
                 <tr>
-                    <td>Appointment Date:</td>
+                    <td class="wid">Appointment Date:</td>
                     <td><?php echo $app_date ?></td>
                 </tr>
                 <tr>
-                    <td>Reference Number:</td>
+                    <td class="wid">Reference Number:</td>
                     <td><?php echo $ref ?></td>
                 </tr>
                 <tr>
-                    <td>Please be on time!</td>
+                    <td colspan="2">Please be on time!</td>
                 </tr>
             </table>
         <button onclick="window.print()">Print Receipt</button>

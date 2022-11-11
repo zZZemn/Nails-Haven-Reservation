@@ -5,14 +5,37 @@
 }
 
 table {
+    font-family: 'Roboto', sans-serif;
     margin: auto;
-    border: 1px solid black;
+    border: 0.1px solid black;
     border-collapse: collapse;
+    width: 500px;
+    height: 200px;
 }
 
 table tr td{
-    border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
+    border: 0.1px solid black;
+}
+
+button {
+    position: fixed;
+    bottom: 20;
+    left: 60%;
+}
+
+.wid {
+    width: 180px;
+}
+
+.logo {
+    height: 50px;
+    width: 60px;
+}
+
+.np {
+    font-size: 10px;
+    border: none;
 }
 
 @media only print {
