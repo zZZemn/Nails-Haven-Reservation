@@ -66,7 +66,21 @@
                 <tr>
                     <td colspan="2">Please be on time!</td>
                 </tr>
+                <tr>
+                    <td><ion-icon name="call-outline"></ion-icon></td>
+                    <td>096-8842-283</td>
+                </tr>
+                <tr>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <td>www.facebook.com</td>
+                </tr>
+                <tr>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <td>www.instagram.com</td>
+                </tr>
             </table>
         <button onclick="window.print()">Print Receipt</button>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
