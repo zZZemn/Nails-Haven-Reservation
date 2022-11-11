@@ -15,11 +15,8 @@ table tr td{
     padding: 5px;
 }
 
-@media print {
-    * {
+@media only print {
+    button {
         display: none;
-      }
-    table {
-      display: block;
     }
-  }
+}

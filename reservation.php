@@ -41,32 +41,26 @@
     <link rel="stylesheet" href="receipt.css">
 </head>
 <body>
-    <div id="printableTable">
-        <table>
-            <tr>
-                <td>Hi, <?php echo $fname." ".$lname; ?></td>
-            </tr>
-            <tr>
-                <td>Appointment Time</td>
-                <td><?php echo $app_time ?></td>
-            </tr>
-            <tr>
-                <td>Appointment Date</td>
-                <td><?php echo $app_date ?></td>
-            </tr>
-            <tr>
-                <td>Reference Number</td>
-                <td><?php echo $ref ?></td>
-            </tr>
-            <tr>
-                <td>Please be on time!</td>
-            </tr>
-        </table>
-    </div>
-    <button class="Button Button--outline" onclick="printDiv()">Print</button>
-
-    <iframe name="print_frame" width="0" height="0" frameborder="0" src="about:blank"></iframe>
-
-<script src="print.js"></script>
+            <table>
+                <tr>
+                    <td>Hi, <?php echo $fname." ".$lname; ?></td>
+                </tr>
+                <tr>
+                    <td>Appointment Time:</td>
+                    <td><?php echo $app_time ?></td>
+                </tr>
+                <tr>
+                    <td>Appointment Date:</td>
+                    <td><?php echo $app_date ?></td>
+                </tr>
+                <tr>
+                    <td>Reference Number:</td>
+                    <td><?php echo $ref ?></td>
+                </tr>
+                <tr>
+                    <td>Please be on time!</td>
+                </tr>
+            </table>
+        <button onclick="window.print()">Print Receipt</button>
 </body>
 </html>
