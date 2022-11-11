@@ -46,40 +46,45 @@
             <table>
                 <tr>
                     <td class="np"><img class="logo" src="img/2.png" alt="Nails Haven"></td>
-                    <td class="np"><p>MVP3 Bldg. MC Arthur Hiway, Abangan Sur, Marilao, Bulacan (infront of TOYOTA MARILAO)</p></td>
+                    <td colspan="2" class="np"><p>MVP3 Bldg. MC Arthur Hiway, Abangan Sur, Marilao, Bulacan (infront of TOYOTA MARILAO)</p></td>
                 </tr>
                 <tr>
-                    <td colspan="2">Hi, <?php echo $fname." ".$lname; ?></td>
+                    <td colspan="3">Hi, <?php echo $fname." ".$lname; ?></td>
                 </tr>
                 <tr>
-                    <td class="wid">Appointment Time:</td>
+                    <td class="wid" colspan="2">Appointment Time:</td>
                     <td><?php echo $app_time ?></td>
                 </tr>
                 <tr>
-                    <td class="wid">Appointment Date:</td>
+                    <td class="wid" colspan="2">Appointment Date:</td>
                     <td><?php echo $app_date ?></td>
                 </tr>
                 <tr>
-                    <td class="wid">Reference Number:</td>
+                    <td class="wid" colspan="2">Reference Number:</td>
                     <td><?php echo $ref ?></td>
                 </tr>
                 <tr>
-                    <td colspan="2">Please be on time!</td>
+                    <td colspan="3">Please be on time!</td>
                 </tr>
-                <tr>
-                    <td><ion-icon name="call-outline"></ion-icon></td>
-                    <td>096-8842-283</td>
+
+                <tr class="footer">
+                    <td class="np f h"><ion-icon name="call-outline"></ion-icon></td>
+                    <td class="np f"><p>096-8842-283</p></td>
+                    <td class="np f"><p></p></td>
                 </tr>
-                <tr>
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    <td>www.facebook.com</td>
+                <tr class="footer">
+                    <td class="np f h"><ion-icon name="logo-facebook"></ion-icon></td>
+                    <td class="np f"><p>www.facebook.com</p></td>
+                    <td class="np f"><p></p></td>
                 </tr>
-                <tr>
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    <td>www.instagram.com</td>
+                <tr class="footer">
+                    <td class="np f h"><ion-icon name="logo-instagram"></ion-icon></td>
+                    <td class="np f"><p>www.instagram.com</p></td>
+                    <td class="np f"><p></p></td>
                 </tr>
             </table>
         <button onclick="window.print()">Print Receipt</button>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

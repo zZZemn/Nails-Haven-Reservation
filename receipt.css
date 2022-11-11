@@ -33,9 +33,34 @@ button {
     width: 60px;
 }
 
+.footer {
+    height: 10px;
+}
+
 .np {
     font-size: 10px;
     border: none;
+}
+
+.f {
+    font-size: 10px;
+    padding: 0;
+}
+
+.h {
+    text-align: center;
+}
+
+.hh {
+    padding-top: 10px;
+}
+
+.hhh {
+    padding-bottom: 10px;
+}
+
+ion-icon {
+    font-size: 10px;
 }
 
 @media only print {
