@@ -43,6 +43,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:ital,wght@0,400;1,500&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="go-home"><a id="#circle" href="index.html">←</a></div>
             <table>
                 <tr>
                     <td class="np"><img class="logo" src="img/2.png" alt="Nails Haven"></td>
@@ -85,6 +86,7 @@
             </table>
         <button onclick="window.print()">Print Receipt</button>
 
+    <script src="hover.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

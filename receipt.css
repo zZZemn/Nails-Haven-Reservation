@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+.go-home {
+    margin-top: 15px;
+}
+
+.go-home a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.go-home a:hover {
+    border: 11px solid black;
+}
+
+
+
 table {
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -66,6 +87,9 @@ ion-icon {
 
 @media only print {
     button {
+        display: none;
+    }
+    .go-home {
         display: none;
     }
 }
