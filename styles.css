@@ -5,8 +5,19 @@
     background-size: cover;
     width: 100vw;
     height: 50vh;
+    text-align: center;
+    padding-top: 8%;
+    border-top: 2px solid black;
 }
 
 .bg-photo h1 {
     font-family: 'Belleza', sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #ffffff;
+}
+
+.bg-photo h4 {
+    font-family: 'Belleza', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 #ffffff;
 }
