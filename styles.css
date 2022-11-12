@@ -1,0 +1,12 @@
+.bg-photo {
+    background-image: url(img/bg2.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.bg-photo h1 {
+    font-family: 'Belleza', sans-serif;
+}
