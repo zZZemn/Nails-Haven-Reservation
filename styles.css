@@ -2,10 +2,6 @@
     font-family: 'Belleza', sans-serif;
 }
 
-body {
-    height: 1100px;
-}
-
 .bg-photo {
     background-image: url(img/bg2.png);
     background-repeat: no-repeat; 
@@ -48,6 +44,7 @@ body {
 .packages-container {
     margin-top: 10vh;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .packages-container h1 {
@@ -108,4 +105,24 @@ body {
     background-color: pink;
     border: none;
     height: 1px;
+}
+
+.online-booking2 {
+    text-align: center;
+    margin-bottom: 220px;
+}
+
+.online-booking2 a{
+    background-color:  #ff60f4;
+    border-top: 1px solid white;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Belleza', sans-serif;
+}
+
+.online-booking2 a:hover {
+    background-color:  #ff86f7;
 }

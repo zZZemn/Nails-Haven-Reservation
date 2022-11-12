@@ -9,9 +9,6 @@ nav {
     justify-content: space-around;  
     align-items: center;
     background-color:  #fbc0ff;
-    position: sticky;
-    top: 0;
-    z-index: 100000;
 }
 
 nav img {
