@@ -9,6 +9,9 @@ nav {
     justify-content: space-around;  
     align-items: center;
     background-color:  #fbc0ff;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
 }
 
 nav img {
@@ -26,7 +29,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    padding: 19.5px;
+    padding: 19.5px 0px;
     font-size: 15px;
     border: none;
     cursor: pointer;
@@ -42,6 +45,7 @@ nav ul li a {
     font-family: 'Belleza', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    padding: 19.5px;
 }
 
 

@@ -32,6 +32,7 @@
     </nav>
     <div class="form-container">
         <form name="frmResevation" action="reservation.php" method="POST">
+            <h1>BOOK AN APOINTMENT</h1>
             <div>
                 <input type="text" name="FirstName" placeholder="First Name" required class="txt">
                 <input type="text" name="LastName" placeholder="Last Name" required class="txt">
@@ -62,9 +63,9 @@
 
             <div>
                 <h4>Reservation Payment</h4>
-                <p>Please Pay ₱200 For Reservation</p>
+                <p class="pay">Please Pay ₱200 For Reservation</p>
                 <div class="upload-photo">
-                    <label for="receipt">Payment Receipt</label>
+                    <label  class="pay"for="receipt">Payment Receipt</label>
                     <input type="file" name="receipt" id="receipt" accept="image/png, image/jpeg" required>
                 </div>
                 <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num" class="txt">

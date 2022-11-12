@@ -2,22 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Belleza', sans-serif;
 }
 
 .form-container {
     height: 100vh;
     display: block;
     text-align: center;
-    padding-top: 90px;
+    height: 500px;
+    margin-top: 38px;
 }
+
 form {
     background-color: rgb(243, 151, 151);
     border-radius: 1%;
-    width: 600px;
+    width: 500px;
     height: 500px;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 25px;
     margin: auto;  
+    margin-top: 10px;
+}
+
+form h1 {
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 0 rgb(255, 255, 255);
 }
 
 form div {
@@ -40,14 +49,21 @@ form div {
 }
 
 .line {
-    width: 500px;
+    width: 450px;
     margin: auto;
     padding: 20px 0px;
 }
 
-
-
 .btn {
     height: 30px;
     width: 70px;
+}
+
+form div h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.pay {
+    font-size: 13px;
 }
