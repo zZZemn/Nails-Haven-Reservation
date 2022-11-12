@@ -11,14 +11,15 @@
     text-align: center;
     height: 500px;
     margin-top: 38px;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
+    background-image: url('img/bg2.png');
 }
 
 form {
     background-color: rgb(243, 151, 151);
     border-radius: 1%;
     width: 500px;
-    height: 500px;
+    height: 100%;
     text-align: center;
     padding-top: 25px;
     margin: auto;  

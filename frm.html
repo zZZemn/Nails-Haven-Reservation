@@ -31,48 +31,50 @@
             <li class="ob"><a href="frm.html">Online&nbsp;Booking</a></li>
         </ul>
     </nav>
+    
     <div class="form-container">
-        <form name="frmResevation" action="reservation.php" method="POST">
-            <h1>BOOK AN APOINTMENT</h1>
-            <div>
-                <input type="text" name="FirstName" placeholder="First Name" required class="txt">
-                <input type="text" name="LastName" placeholder="Last Name" required class="txt">
-            </div>
-
-            <div>
-                <input type="email" name="email" placeholder="Email Address" required class="txt">
-                <input type="text" name="contact" placeholder="Contact Number/s" class="txt">
-            </div>
-            
-            <div>
-                <input type="text" name="address" placeholder="Address" class="txt2">   
-            </div>
-            <div class="upload-photo">
-                <label for="valid-id">Upload a photo of valid ID</label>
-                <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
-            </div>
-
-            <div class="line first"><hr></div>
-            
-            <div>
-                <h4>Select Date and Time of Appointment</h4>
-                <input type="date" name="appointment-date">
-                <input type="time" name="appointment-time">
-            </div>
-            
-            <div class="line second"><hr></div>
-
-            <div>
-                <h4>Reservation Payment</h4>
-                <p class="pay">Please Pay ₱200 For Reservation</p>
-                <div class="upload-photo">
-                    <label  class="pay"for="receipt">Payment Receipt</label>
-                    <input type="file" name="receipt" id="receipt" accept="image/png, image/jpeg" required>
+            <form name="frmResevation" action="reservation.php" method="POST">
+                <h1>BOOK AN APOINTMENT</h1>
+                <div>
+                    <input type="text" name="FirstName" placeholder="First Name" required class="txt">
+                    <input type="text" name="LastName" placeholder="Last Name" required class="txt">
                 </div>
-                <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num" class="txt">
-                <input type="submit" class="btn" name="save">
-            </div>
-        </form>
+
+                <div>
+                    <input type="email" name="email" placeholder="Email Address" required class="txt">
+                    <input type="text" name="contact" placeholder="Contact Number/s" class="txt">
+                </div>
+                
+                <div>
+                    <input type="text" name="address" placeholder="Address" class="txt2">   
+                </div>
+                <div class="upload-photo">
+                    <label for="valid-id">Upload a photo of valid ID</label>
+                    <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
+                </div>
+
+                <div class="line first"><hr></div>
+                
+                <div>
+                    <h4>Select Date and Time of Appointment</h4>
+                    <input type="date" name="appointment-date">
+                    <input type="time" name="appointment-time">
+                </div>
+                
+                <div class="line second"><hr></div>
+
+                <div>
+                    <h4>Reservation Payment</h4>
+                    <p class="pay">Please Pay ₱200 For Reservation</p>
+                    <div class="upload-photo">
+                        <label  class="pay"for="receipt">Payment Receipt</label>
+                        <input type="file" name="receipt" id="receipt" accept="image/png, image/jpeg" required>
+                    </div>
+                    <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num" class="txt">
+                    <input type="submit" class="btn" name="save">
+                </div>
+            </form>
+        </div>
 
         <div class="footer-container">
             <footer>
@@ -98,6 +100,6 @@
                     <h6>© Nails Haven, 2022</h6>
                 </div>
             </footer>
-    </div>
+        </div>
 </body>
 </html>
