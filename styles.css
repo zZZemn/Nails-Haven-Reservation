@@ -62,11 +62,11 @@
 }
 
 .package {
-    width: 190px;
+    width: 250px;
     margin: 20px;
     position: relative;
     background-color: hsla(306, 100%, 69%, 0.247);
-    height: 270px;
+    height: 370px;
     border: 2px solid hsla(306, 100%, 69%, 0.247);
 }
 
