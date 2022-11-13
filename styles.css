@@ -80,21 +80,22 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .price-container h3 {
     color: #ff60f4;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .price-container h4 {
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .package p {
     position: absolute;
     font-size: 12px;
-    padding-left: 3px;
+    padding-left: 5px;
     padding-top: 5px;
     text-align: left;
 }
