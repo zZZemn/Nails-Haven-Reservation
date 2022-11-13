@@ -66,7 +66,7 @@
     margin: 20px;
     position: relative;
     background-color: hsla(306, 100%, 69%, 0.247);
-    height: 370px;
+    height: 350px;
     border: 2px solid hsla(306, 100%, 69%, 0.247);
 }
 
@@ -86,15 +86,17 @@
 .price-container h3 {
     color: #ff60f4;
     padding-right: 10px;
+    font-size: 25px;
 }
 
 .price-container h4 {
     padding-left: 5px;
+    font-size: 20px;
 }
 
 .package p {
     position: absolute;
-    font-size: 12px;
+    font-size: 13px;
     padding-left: 5px;
     padding-top: 5px;
     text-align: left;
