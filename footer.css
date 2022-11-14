@@ -21,3 +21,7 @@ footer div h2{
 footer div h5 {
     margin-bottom: 5px;
 }
+
+footer a {
+    color: black;
+}
