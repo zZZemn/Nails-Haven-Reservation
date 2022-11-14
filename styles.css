@@ -103,11 +103,30 @@
 }
 
 .packages-container hr {
-    width: 70%;
+    width: 90%;
     margin: auto;
     background-color: pink;
     border: none;
     height: 1px;
+}
+
+.line2 {
+    width: 90%;
+    margin: auto;
+    background-color: pink;
+    border: none;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.sent {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.sent h5 {
+    font-size: 25px;
 }
 
 .online-booking2 {
