@@ -66,3 +66,52 @@ a {
   width: 55px;
 }
 
+.nav-bottom-ul1 {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-bottom-ul1 li {
+  display: flex;
+  height: 100%;
+}
+
+.nav-bottom-ul1 li a {
+  padding: 13px 20px;
+  transition-duration: 0.5s;
+}
+
+.uls li {
+  background-color: pink;
+}
+
+.uls li a:hover {
+  background-color: gray;
+}
+
+.drop-down {
+  display: none;
+  position: absolute;
+  margin-top: 51px;
+  transition: all 0.5s ease;
+}
+
+.nav-bottom-ul1 li:hover > ul,
+.nav-bottom-ul1 li:focus-within > ul,
+.drop-down:hover,
+.drop-down:focus {
+  display: block;
+}
+
+.drop-down a {
+  clear: both;
+  width: 100%;
+}
+
+.book-now {
+  background-color: rgb(0, 0, 0);
+  color: pink;
+  padding: 8px 17px;
+}
