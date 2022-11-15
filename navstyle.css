@@ -22,8 +22,23 @@
 }
 
 .nav-head-ul li a {
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.nav-head-ul1 {
+  width: 400px;
+}
+
+.nav-head-ul2 a {
+  font-size: 13px;
+}
+
+.nav-head-ul2 {
+  background-color: blue;
+  width: 100px;
 }
 
 
