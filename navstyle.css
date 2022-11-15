@@ -9,12 +9,22 @@
   background-color: #df01d0;
   display: flex;
   justify-content: space-between;
+  padding: 0px 50px;
 }
 
 .nav-head-ul {
   display: flex;
+  justify-content: space-between;
 }
 
+.nav-head-ul li {
+  list-style: none;
+}
+
+.nav-head-ul li a {
+  font-size: 12px;
+  text-decoration: none;
+}
 
 
 
