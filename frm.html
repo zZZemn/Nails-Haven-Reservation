@@ -7,29 +7,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navstyle.css">
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="footer.css">
     <title>Nails Haven - Reservation</title>
 </head>
 <body>
-    <nav>
-        <img src="img/2.png" alt="">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Services&nbsp;▼</button>
-                <div class="dropdown-content">
-                    <a href="#">Hand&nbsp;&&nbsp;Foot&nbsp;Care</a>
-                    <a href="#">Nail&nbsp;Care</a>
-                    <a href="#">Spa&nbsp;Party</a>
-                    <a href="#">Kiddie&nbsp;Corner</a>
-                    <a href="#">All</a>
-                </div>
-            </div>
-            <li><a href="#">Contacts</a></li>
-            <li class="ob"><a href="frm.html">Online&nbsp;Booking</a></li>
+    <div class="nav-head">
+        <ul class="nav-head-ul nav-head-ul1">
+            <li><a href="#"><ion-icon name="call-outline"></ion-icon>&nbsp;096-8842-283</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="#"><ion-icon name="location"></ion-icon>&nbsp;MVP3 Bldg. MC Arthur Hiway, Abangan Sur, Marilao, Bulacan</a></li>
         </ul>
+        <ul class="nav-head-ul nav-head-ul2">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+    </div>
+
+    <nav class = "nav-bottom">
+        <img src="img/2.png" alt="logo">
+
+        <ul class="nav-bottom-ul1 uls">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="services"><a href="#">Services&nbsp;▼</a>
+                <ul class="drop-down uls">
+                    <li><a href="#">Hand&nbsp;&&nbsp;Foot&nbsp;Care</a></li>
+                    <li><a href="#">Nail&nbsp;Care</a></li>
+                    <li><a href="#">Spa&nbsp;Party</a></li>
+                    <li><a href="#">Kiddie&nbsp;Corner</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul> 
+
+        <a class="book-now" href="frm.html">Book&nbsp;Now</a>
     </nav>
 
     <div class="form-container">
@@ -101,5 +119,7 @@
                 </div>
             </footer>
         </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
