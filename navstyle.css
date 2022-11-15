@@ -3,18 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*nav-head style*/
 .nav-head {
   width: 100%;
-  background-color: #df01d0;
+  background-color: #ffa2f9;
   display: flex;
   justify-content: space-between;
-  padding: 0px 50px;
+  padding: 3px 50px;
 }
 
 .nav-head-ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-head-ul li {
@@ -22,7 +23,6 @@
 }
 
 .nav-head-ul li a {
-  font-size: 10px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -30,114 +30,14 @@
 
 .nav-head-ul1 {
   width: 400px;
+  font-size: 10px;
+}
+
+.nav-head-ul2 {
+  width: 100px;
+  padding-top: 3px;
 }
 
 .nav-head-ul2 a {
   font-size: 13px;
 }
-
-.nav-head-ul2 {
-  background-color: blue;
-  width: 100px;
-}
-
-
-
-
-
-
-
-nav {
-    display: flex;
-    justify-content: space-around;  
-    align-items: center;
-    background-color:  #fbc0ff;
-}
-
-nav img {
-    height: 50px;
-    width: 65px;
-
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 35%;
-}
-
-nav ul li {
-    list-style: none;
-    padding: 19.5px 0px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-}
-
-nav ul li:hover {
-    background-color:  #fccbff;
-}
-
-nav ul li a {
-    color: #df01d0;
-    text-decoration: none;
-    font-family: 'Belleza', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 19.5px;
-}
-
-
-.dropbtn {
-    background-color:  #fbc0ff;
-    color: #df01d0;
-    padding: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border: none;
-    cursor: pointer;
-    font-family: 'Belleza', sans-serif;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:  #fccbff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: 'Belleza', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    color: #df01d0;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:  #fccbff;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color:  #fccbff;
-  }
