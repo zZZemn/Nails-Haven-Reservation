@@ -41,3 +41,18 @@
 .nav-head-ul2 a {
   font-size: 13px;
 }
+
+/*Nav-bottom*/
+
+.nav-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding: 0px 50px;
+}
+
+.nav-bottom-ul {
+  display: flex;
+  
+}
