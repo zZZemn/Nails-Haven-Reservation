@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.nav-head {
+  width: 100%;
+  background-color: #df01d0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-head-ul {
+  display: flex;
+}
+
+
+
+
+
+
+
+
 nav {
     display: flex;
     justify-content: space-around;  
