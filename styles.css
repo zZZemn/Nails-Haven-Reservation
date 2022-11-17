@@ -90,6 +90,7 @@
 .inside-photo h5 {
     font-size: 30px;
     color: white;
+    margin-bottom: 10px;
 }
 
 .inside-photo a {
@@ -97,6 +98,12 @@
     background-color: pink;
     padding: 10px;
     border-radius: 20px;
+}
+
+.inside-photo hr {
+    background-color: white;
+    height: 10px;
+    z-index: 10000;
 }
 
 .packages-container h1 {
