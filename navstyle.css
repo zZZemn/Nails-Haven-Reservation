@@ -96,6 +96,7 @@ display: none;
 position: absolute;
 margin-top: 51px;
 transition: all 0.5s ease;
+z-index: 100000;
 }
 
 .nav-bottom-ul1 li:hover > ul,
