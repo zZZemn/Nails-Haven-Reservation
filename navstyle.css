@@ -49,6 +49,22 @@ padding-top: 3px;
 font-size: 13px;
 }
 
+.facebook a ion-icon{
+  color: #3b5998;
+}
+
+.instagram a ion-icon {
+  color: #F77737;
+}
+
+.twitter a ion-icon {
+  color: #1DA1F2;
+}
+
+.linkedin a ion-icon {
+  color: #006192;
+}
+
 /*Nav-bottom*/
 .nav-bottom {
 width: 100%;
