@@ -1,12 +1,13 @@
 .footer-container {
     position: relative;
     bottom: 0;
+    color: white;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
-    background-color:  #c400b7;
+    background-color: rgb(22, 22, 22);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -16,6 +17,7 @@ footer {
 
 footer div h2{
     margin-bottom: 5px;
+    color: pink;
 }
 
 footer div h5 {
@@ -23,5 +25,5 @@ footer div h5 {
 }
 
 footer a {
-    color: black;
+    color: white;
 }

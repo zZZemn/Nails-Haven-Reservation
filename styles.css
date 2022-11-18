@@ -107,25 +107,24 @@
 }
 
 .packages-container h1 {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     color: #ff60f4;
-    font-size: 45px;
+    font-size: 60px;
     text-shadow: 1px 1px 0 #cacaca;
 }
 
 .packages {
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
 .package {
-    width: 250px;
+    width: 400px;
     margin: 20px;
     position: relative;
-    background-color: hsla(306, 100%, 69%, 0.247);
-    height: 350px;
+    height: 400px;
     border: 2px solid hsla(306, 100%, 69%, 0.247);
 }
 
@@ -133,7 +132,6 @@
     height: 100%;
     width: 100%;
 }
-
 
 .price-container {
     display: flex;
@@ -162,11 +160,12 @@
 }
 
 .packages-container hr {
-    width: 90%;
+    width: 70%;
     margin: auto;
     background-color: pink;
     border: none;
     height: 1px;
+    margin-bottom: 30px;
 }
 
 .line2 {
@@ -194,7 +193,7 @@
 }
 
 .online-booking2 a{
-    background-color:  #ff60f4;
+    background-color: rgb(22, 22, 22);
     border-top: 1px solid white;
     color: white;
     padding: 10px 15px;
@@ -202,8 +201,10 @@
     border-radius: 20px;
     text-decoration: none;
     font-family: 'Belleza', sans-serif;
+    transition-delay: 200ms;
 }
 
 .online-booking2 a:hover {
-    background-color:  #ff86f7;
+    background-color:  #ff7ef66c;
+    color: black;
 }
