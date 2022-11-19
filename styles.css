@@ -2,10 +2,6 @@
     font-family: 'Belleza', sans-serif;
 }
 
-body {
-    background-color: pink;
-}
-
 .main {
     position: relative;
     margin-bottom: 500px;
@@ -169,18 +165,21 @@ body {
   height: 500px;
   display: flex;
   align-items: center;
-  padding: 0px 80px;
+  padding: 0px 50px;
+  background-image: url(img/Bot-cover.jpg);
+  background-size: cover;
 }
 
 .para h3 {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.212);
+  background-color: rgba(0, 0, 0, 0.349);
   height: 300px;
   padding: 0px 80px;
   font-size: 25px;
   border-radius: 2px;
-  color: white;
+  color: rgb(255, 255, 255);
+  
 }
 
 .online-booking2 {
