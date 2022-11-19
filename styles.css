@@ -161,31 +161,37 @@
 }
 
 .para {
-  position: absolute;
+  position: relative;
   height: 500px;
   display: flex;
   align-items: center;
-  padding: 0px 50px;
+  justify-content: center;
+}
+
+.para-container {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-items: center;
   background-image: url(img/Bot-cover.jpg);
   background-size: cover;
+  padding: 0px 90px;
 }
 
 .para h3 {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.349);
-  height: 300px;
+  height: 250px;
   padding: 0px 80px;
   font-size: 25px;
   border-radius: 2px;
   color: rgb(255, 255, 255);
-  
+  background-color: rgba(0, 0, 0, 0.438);
 }
 
 .online-booking2 {
     text-align: center;
     margin-bottom: 220px;
-    margin-top: 200px;
 }
 
 .online-booking2 a{
@@ -196,10 +202,8 @@
     border-radius: 20px;
     text-decoration: none;
     font-family: 'Belleza', sans-serif;
-    transition-delay: 200ms;
 }
 
 .online-booking2 a:hover {
-    background-color:  #ff7ef66c;
-    color: black;
+    background-color:  rgb(10, 10, 10);
 }
