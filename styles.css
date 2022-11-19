@@ -2,9 +2,12 @@
     font-family: 'Belleza', sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .main {
     position: relative;
-    margin-bottom: 500px;
 }
 
 .carousel {
@@ -198,7 +201,6 @@
     background-color: rgb(22, 22, 22);
     color: white;
     padding: 10px 15px;
-    margin-top: 20px;
     border-radius: 20px;
     text-decoration: none;
     font-family: 'Belleza', sans-serif;
