@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navstyle.css">
-    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cancel-style.css">
     <link rel="stylesheet" href="footer.css">
-    <title>Nails Haven - Reservation</title>
+    <link rel="stylesheet" href="navstyle.css">
+    <title>Nails - Cancel Appointment</title>
 </head>
 <body>
     <div class="nav-head">
@@ -51,46 +53,19 @@
     </nav>
 
     <div class="form-container">
-            <form name="frmResevation" action="reservation.php" method="POST">
-                <h1>BOOK AN APOINTMENT</h1>
+            <form name="cancelation" action="cancel.php" method="POST">
+                <h1>CANCEL APOINTMENT</h1>
+                <hr>
+                <h3>What's your reason?</h3>
                 <div>
-                    <input type="text" name="FirstName" placeholder="First Name" required class="txt">
-                    <input type="text" name="LastName" placeholder="Last Name" required class="txt">
+                    <textarea name="reason"></textarea>
                 </div>
-
+                <hr>
                 <div>
-                    <input type="email" name="email" placeholder="Email Address" required class="txt">
-                    <input type="text" name="contact" placeholder="Contact Number/s" class="txt">
+                    <input type="text" name="FirstName" placeholder="Reference Number" required class="txt">
                 </div>
-                
-                <div>
-                    <input type="text" name="address" placeholder="Address" class="txt2">   
-                </div>
-                <div class="upload-photo">
-                    <label for="valid-id">Upload a photo of valid ID</label>
-                    <input type="file" name="valid-id" id="valid-id" accept="image/png, image/jpeg" required>
-                </div>
-
-                <div class="line first"><hr></div>
-                
-                <div>
-                    <h4>Select Date and Time of Appointment</h4>
-                    <input type="date" name="appointment-date">
-                    <input type="time" name="appointment-time">
-                </div>
-                
-                <div class="line second"><hr></div>
-
-                <div>
-                    <h4>Reservation Payment</h4>
-                    <p class="pay">Please Pay ₱200 For Reservation</p>
-                    <div class="upload-photo">
-                        <label  class="pay"for="receipt">Payment Receipt</label>
-                        <input type="file" name="receipt" id="receipt" accept="image/png, image/jpeg" required>
-                    </div>
-                    <input type="text" name="ref_num" id="ref_num" placeholder="Gcash Ref Num" class="txt">
-                    <input type="submit" class="btn" name="save">
-                </div>
+                <hr class="btnhr">
+                <input type="submit" class="btn" name="save" value="Finish">
             </form>
         </div>
 
