@@ -43,7 +43,8 @@
                     }
             }
             else {
-                echo "invalid reference number";
+                echo "<title>invalid reference number</title>";
             }
         }
     }
+?>
