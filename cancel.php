@@ -30,7 +30,6 @@
 
                 if($cancelledResult)
                     {
-                        echo 'successfully inserted in cancel_appointment table';
                         $del = "DELETE FROM `reservation` WHERE ref_num = $ref";
                         $deleteResult = mysqli_query($conn, $del);
                         if($deleteResult)
