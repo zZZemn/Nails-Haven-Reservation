@@ -5,6 +5,11 @@
     font-family: 'Belleza', sans-serif;
 }
 
+body {
+    background-image: url(img/carousel3.jpg);
+    background-size: contain;
+}
+
 .form-container {
     height: 100vh;
     display: block;
@@ -14,7 +19,8 @@
 }
 
 form {
-    background-color:  #fbc0ffe5;
+    background-color:  #fbc0ff7e;
+    border: 1px solid black;
     border-radius: 1%;
     width: 500px;
     height: 80%;
