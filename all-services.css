@@ -1,3 +1,34 @@
 .all-services-container {
-    height: 100vh;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 17%;
+    font-family: poppins;
+    background-image: url(img/Bot-cover.jpg);
+    background-size: cover;
+}
+
+.all-services-container table {
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 40px;
+}
+
+.all-services-container table tr th{
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    color: pink;
+    text-shadow: 2px 2px 2px black;
+}
+
+.all-services-container table tr td {
+    font-size: 15px;
+    padding: 2px 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.last-row td{
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.199);
 }
