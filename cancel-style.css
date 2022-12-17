@@ -1,3 +1,8 @@
+body {
+    background-image: url(img/carousel2.jpg);
+    background-size: cover;
+}
+
 .form-container {
     height: 110vh;
     width: 60%;
@@ -10,7 +15,8 @@
 
 .form-container form {
     position: absolute;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.603);
+    border: 1px solid black;
     height: 430px;
     width: 500px;
     text-align: center;
